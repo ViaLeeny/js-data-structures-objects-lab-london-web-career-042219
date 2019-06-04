@@ -13,7 +13,7 @@ return obj;
 }
 
 function deleteFromDriverByKey(obj, key, value) {
-
+  delete obj.key
 };
 
 function destructivelyDeleteFromDriverByKey() {
