@@ -12,7 +12,7 @@ obj[key] = value;
 return obj;
 }
 
-function deleteFromDriverByKey() {
+function deleteFromDriverByKey(obj, key, value) {
 
 };
 
