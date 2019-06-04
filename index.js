@@ -13,7 +13,8 @@ return obj;
 }
 
 function deleteFromDriverByKey(obj, key) {
-  delete obj.key;
+  const newObj = {...obj};
+  delete newObj.key;
   return obj;
 };
 
