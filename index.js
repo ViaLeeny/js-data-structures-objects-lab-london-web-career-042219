@@ -1,6 +1,6 @@
 const driver = {}
 
-const updateDriverWithKeyAndValue = (driver, key, value) {
+function updateDriverWithKeyAndValue(driver, key, value) {
 
 };
 
