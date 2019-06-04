@@ -15,7 +15,7 @@ return obj;
 function deleteFromDriverByKey(obj, key) {
   const newObj = {...obj};
   delete newObj.key;
-  return obj;
+  return newObj;
 };
 
 function destructivelyDeleteFromDriverByKey() {
