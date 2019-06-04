@@ -1,4 +1,4 @@
-const driver = {key:value}
+const driver = {}
 
 function updateDriverWithKeyAndValue() {
 
